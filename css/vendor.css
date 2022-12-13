@@ -1,0 +1,21 @@
+.vendor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 90px;
+
+    width: 100%;
+    height: auto;
+    padding: 139px 0;
+
+
+    background-image: url(../img/vendor/bg_vendor.jpg);
+}
+
+.vendor_img {
+    fill: #fff;
+}
+
+.vendor_img:hover {
+    fill : var(--lightbrown);
+}

@@ -1,0 +1,182 @@
+.foot_logo {
+    width: 64px;
+    height: 56px;
+    fill: #ffffff;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    column-gap: 50px;
+
+    padding: 110px 0 80px;
+    box-sizing: border-box;
+    max-width: 1920px;
+    background-color: #191919;
+}
+
+.item_top {
+    display: flex;
+    align-items: center;
+}
+
+.foot_item{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    margin-top: -30px;
+    
+    width: 270px;
+}
+
+.foot_recent_item{
+    display: flex;
+    flex-direction: column;
+
+    width: 270px;
+}
+
+.logo_glav {
+    font-family: Raleway;
+    font-size: 34px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: -0.04em;
+    color: #ffffff;
+}
+
+.foot_glav {
+    font-family: Raleway;
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.foot_txt {
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #555555;
+}
+
+.foot_link {
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #d1d1d1;
+}
+
+.foot_link::after {
+    transition: var(--trans);
+    opacity: 0;
+    content: url(../img/footer/foot_arrow.png);
+}
+
+.foot_link:hover::after {
+    opacity: 1;
+}
+
+.foot_post_item {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+    row-gap: 10px;
+
+    border-bottom: 2px #252525 solid;
+}
+
+.foot_data {
+    font-family: Montserrat;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #363636;
+}
+
+.foot_txt {
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #555555;
+}
+
+.foot_time {
+    font-family: Montserrat;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #363636;
+}
+
+.twitter_txt {
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #00bff3;
+}
+
+.twitter_link {
+    color: #959595;
+}
+
+.foot_recent_item:last-child {
+    border-bottom: 0px;
+}
+
+.foot_widget_item {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    width: 270px;
+}
+
+.widget_img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.privacy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 375px;
+    box-sizing: border-box;
+    max-width: 1920px;
+    height: 111px;
+    background-color: #111111;
+}
+
+.privacy_box {
+    display: flex;
+}
+
+.foot_white {
+    color: #959595;
+}
+
+.privacy_item, .copy{
+    padding: 0 10px;
+    font-family: Montserrat;
+    font-size: 13px;
+    line-height: 13px;
+    font-weight: 300;
+    color: #555555;
+    height: 13px;
+    transition: var(--trans);
+}
+
+.privacy_item {
+    border-left: 1px solid #252525;;
+}
+
+.privacy_item:hover {
+    color: var(--lightbrown);
+}

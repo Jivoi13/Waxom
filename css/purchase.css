@@ -1,0 +1,56 @@
+.purchase {
+    height: 150px;
+    padding: 0 375px;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: linear-gradient(90.0deg, #211b19 0%, #4e3427 100%);
+}
+
+.purchase_glav {
+    font-family: Raleway;
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.pw {
+    color: #c7b299;
+}
+
+.purchase_txt {
+    margin-top: 5px;
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #615855;
+}
+
+.purchase_but {
+    width: 170px;
+    height: 50px;
+    
+    background-color: #998675;
+    border-radius: 3px;
+    
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #ffffff;   
+    text-align: center;
+    line-height: 50px;
+
+    transition: var(--trans);
+}
+
+.purchase_but:hover {
+    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.7);
+}

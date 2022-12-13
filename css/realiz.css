@@ -1,0 +1,37 @@
+.realiz {
+    padding: 80px 580px;
+    box-sizing: border-box;
+    height: 700px;
+
+    background: url(../img/realiz/realiz_1.jpg) no-repeat,
+                url(../img/realiz/realiz_2.jpg) no-repeat,
+                url(../img/realiz/realiz_3.jpg) no-repeat,
+              #fbfaf8    
+    ;
+
+    background-position: center bottom,
+                         346px bottom,
+                         806px bottom    
+    ;
+}
+
+.realiz_glav {
+    font-family: Raleway;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #555555;
+    
+    text-align: center;
+}
+
+.realiz_txt {
+    margin-top: 24px;
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #8c8c8c;
+
+    text-align: center;
+}

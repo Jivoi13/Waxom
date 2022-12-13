@@ -1,0 +1,39 @@
+@import url('icons_svg.css');
+@import url('vars.css');
+@import url('slider.css');
+@import url('header.css');
+@import url('links.css');
+@import url('realiz.css');
+@import url('purchase.css');
+@import url('project.css');
+@import url('video.css');
+@import url('mobile.css');
+@import url('icons.css');
+@import url('post.css');
+@import url('vendor.css');
+@import url('foot.css');
+@import url('adaptive.css');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+::-webkit-scrollbar { /* chrome based */
+    width: 0px;
+}
+
+path{ fill:inherit; stroke:inherit; }
+
+body {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1920px;
+}
+
+.main {
+    max-width: 1920px;
+    box-sizing: border-box;
+}
+
